@@ -1,13 +1,26 @@
 import React from 'react';
 import "./Header.css"
 
-export default () => {
-    <header className="header">
-        <img src="../../assets/imgs/Logo.png" alt="logo"/>
-        <h1>LEB Corretora</h1>
+import logo from "../../assets/imgs/logo.svg"
+import arrow from "../../assets/imgs/arrow.svg"
 
-        <a href="/">Home</a>
-        <a href="../Products/products.jsx">Produtos</a>
-        <a href="../Cotation/Cotation.jsx">Cotação</a>
+export default () => {
+    return (
+        <header className="header">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
+
+        <div className="logo">
+            <img src={logo} alt="logo"/>
+            <h1>LEB Corretora</h1>
+        </div>
+
+        <div className="page-buttons">
+            <a href="/">Home</a>
+            <a href="../Products/products.jsx">Produtos</a>
+            <a className="primary-button"href="../Cotation/Cotation.jsx">Cotação <img src={arrow} alt="arrow"/></a>
+        </div>
     </header>
+    )
 }

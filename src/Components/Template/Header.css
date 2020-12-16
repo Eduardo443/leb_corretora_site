@@ -1,6 +1,52 @@
-#header{
+header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Roboto', sans-serif;
+
+    position: fixed;
+
+    background-color: #1D69A3;
+    background: linear-gradient(90deg, #24327B 0%, rgba(52, 78, 213, 0) 100%), #1D69A3;
 
     width: 100%;
-    height: 100rem;
+    height: 7rem;
+}
+
+h1, div > a{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    /* margin: 2em; */
+}
+
+.logo img{
+    height: 7vh;
+    margin-left: 2rem;
+    
+}
+
+.page-buttons > a{
+    font-size: 23px;
+    text-decoration: none;
+    
+    display: inline;
+    /* justify-content: flex-end; */
+
+    margin: 1.8vw;
+}
+
+.primary-button{
+    border-radius: 15px;
+
+    padding: 1.5vh;
+    background-color: #36CF82;
+}
+
+.primary-button img{
+   /* não descobri como se alinha essa seta */
 }
