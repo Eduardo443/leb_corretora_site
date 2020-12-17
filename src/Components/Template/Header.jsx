@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css"
 
-import logo from "../../assets/imgs/logo.svg"
+import logo from "../../assets/imgs/Logo_leb.png"
 import arrow from "../../assets/imgs/arrow.svg"
 
 export default () => {
