@@ -36,26 +36,12 @@ h1, div > a{
 }
 
 .page-buttons > a{
-
-    display: flex;
-    align-items: center;
-
+    display: inline;
+    
     font-size: 20px;
     text-decoration: none;
     
-    display: inline;
     /* justify-content: flex-end; */
 
     margin: 1.8vw;
-}
-
-.primary-button{
-    border-radius: 15px;
-
-    padding: 1.5vh;
-    background-color: #36CF82;
-}
-
-.primary-button img{
-   /* não descobri como se alinha essa seta */
 }

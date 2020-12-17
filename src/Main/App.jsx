@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 
 import './App.css';
-import Home from "../Components/Home/Home.jsx"
+import Home from "../Components/Pages/Home.jsx"
 
 
 export default () => {

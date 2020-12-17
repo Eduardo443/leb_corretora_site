@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css"
 
 import logo from "../../assets/imgs/Logo_leb.png"
-import arrow from "../../assets/imgs/arrow.svg"
+import Primary_button from "./Primary_button.jsx"
 
 export default () => {
     return (
@@ -18,8 +18,8 @@ export default () => {
 
         <div className="page-buttons">
             <a href="/">Home</a>
-            <a href="../Products/products.jsx">Produtos</a>
-            <a className="primary-button"href="../Cotation/Cotation.jsx">Cotação <img src={arrow} alt="arrow"/></a>
+            <a href="../Pages/products.jsx">Produtos</a>
+            <Primary_button/>
         </div>
     </header>
     )

@@ -1,0 +1,11 @@
+.primary-button{
+    border-radius: 15px;
+
+    padding: 1.5vh;
+    background-color: #36CF82;
+}
+
+.primary-button > img{
+    
+    vertical-align: middle;
+}
