@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "./Footer.css"
+import Map from '../Map/Map.jsx'
 
 export default () => {
    return( 
@@ -22,9 +23,9 @@ export default () => {
 
         <div className="localization">
             <h1 className="tittle">Localização</h1>
-            <div className="map"></div>
+            <div className="mapid"></div>
         </div>
-
+        <Map/>
         {/* <p>Desenvolvido por Eduardo Hensel Batista</p> */}
     </footer>
     )
