@@ -1,7 +1,7 @@
 import React from 'react'
 
 import arrow from "../../assets/imgs/arrow.svg"
-import './Primary_button.css'
+import './PrimaryButton.css'
 
 export default () => {
    return (

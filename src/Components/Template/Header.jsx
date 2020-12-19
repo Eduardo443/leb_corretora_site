@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css"
 
 import logo from "../../assets/imgs/Logo_leb.png"
-import Primary_button from "./Primary_button.jsx"
+import PrimaryButton from "./PrimaryButton.jsx"
 
 export default () => {
     return (
@@ -19,7 +19,7 @@ export default () => {
         <div className="page-buttons">
             <a href="/">Home</a>
             <a href="../Pages/products.jsx">Produtos</a>
-            <Primary_button/>
+            <PrimaryButton/>
         </div>
     </header>
     )

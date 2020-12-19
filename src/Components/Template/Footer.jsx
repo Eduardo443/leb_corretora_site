@@ -15,7 +15,7 @@ export default () => {
             </div>
             <div className="paragraph">
                 <h1 className="subtittle">Endereço</h1>
-                <p>Rua: Doutor Pedro Zimmermann</p>
+                <p>Rua: Doutor Pedro Zimmermann, 3013 sala 03</p>
                 <p>Itoupava Central</p>
                 <p>Blumenau - SC</p>
             </div>

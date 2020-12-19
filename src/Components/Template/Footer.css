@@ -64,3 +64,24 @@ p{
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
 }
+
+@media(min-width: 1200px){
+
+    footer{
+        height: 30rem;
+    }
+
+    .leaflet-container{   
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .tittle{
+        font-size: 1.8rem;
+    }
+
+    .subtittle{
+        font-size: 1.3rem;
+    }
+
+}
