@@ -18,7 +18,8 @@ footer{
 }
 
 .localization{
-    margin-right: 30rem;
+    justify-content: space-between;
+    margin-right: 5rem;
 }
 
 .tittle{
@@ -41,4 +42,25 @@ p{
 
 .paragraph{
     margin-left: 1.7rem;
+}
+
+.leaflet-container{   
+    width: 40vw;
+    height: 30vh;
+}
+
+.googleMaps-rout{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-weight:bold;
+
+    color: #898787;
+    background-color: #d7e1fa;;
+    
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
 }

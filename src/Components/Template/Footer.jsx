@@ -23,9 +23,8 @@ export default () => {
 
         <div className="localization">
             <h1 className="tittle">Localização</h1>
-            <div className="mapid"></div>
+            <Map/>
         </div>
-        <Map/>
         {/* <p>Desenvolvido por Eduardo Hensel Batista</p> */}
     </footer>
     )
