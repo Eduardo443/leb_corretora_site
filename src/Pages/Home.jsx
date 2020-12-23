@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../Template/Header.jsx"
-import Footer from "../Template/Footer.jsx"
-import Apresentation from "../Template/Apresentation.jsx"
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
+import Apresentation from "../Components/Apresentation"
 
 export default () => {
     return (
