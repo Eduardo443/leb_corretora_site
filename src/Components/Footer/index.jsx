@@ -7,9 +7,7 @@ export default () => {
    return( 
    <Container>
         <Information>
-            <Tittle>
-            <h1>Informações</h1>
-            </Tittle>
+            <Tittle>Informações</Tittle>
             <Paragraph>
                 <Subtittle>Telefone</Subtittle>
                 <p>(47) 3338-3138</p>
@@ -24,9 +22,7 @@ export default () => {
         </Information>
 
         <Localization>
-            <Tittle>
-                Localização
-            </Tittle>
+            <Tittle>Localização</Tittle>
             <Map/>
         </Localization>
         {/* <p>Desenvolvido por Eduardo Hensel Batista</p> */}

@@ -13,7 +13,7 @@ export const Container = Styled.div`
     p{ color: #898787; }
 
     @media(min-width: 1200px){
-        height: 30rem;
+        height: 25rem;
     }
 `;
 
@@ -24,11 +24,11 @@ export const Information = Styled.div`
 export const Tittle = Styled.div`
     color: #898787;
 
-    font-size: 1.3rem;
-    margin-top: 4.4rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 
     @media(min-width: 1200px){
-        font-size: 1.6rem;
+        font-size: 1.7rem;
     }
 `;
 
