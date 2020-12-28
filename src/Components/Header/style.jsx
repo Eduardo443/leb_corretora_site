@@ -41,6 +41,9 @@ export const LogoInfo = styled.div`
 export const PageButtons = styled.div`
     font-size: 1.1rem;
 
+    display: flex;
+    align-items: center;
+
     a{
         color: white;
         text-decoration: none;

@@ -1,10 +1,12 @@
 import React from 'react'
 
 import arrow from "../../assets/imgs/arrow.svg"
-import './style.css'
+import { Container } from './style.jsx'  
 
 export default () => {
    return (
-    <a className="primary-button"href="../pages/Cotation.jsx">Cotação <img src={arrow} alt="arrow"/></a>
+    <Container>
+        <a href="../../pages/Cotation.jsx"> Cotação <img src={arrow} alt="arrow"/></a>
+    </Container>
     );
 }

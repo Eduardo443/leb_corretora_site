@@ -1,21 +1,24 @@
 import React from 'react';
-import "./style.css"
+
+import { Container, InformText, Buttons, Ilustration } from './style.jsx'
 
 import PrimaryButton from '../PrimaryButton'
 import ilustration from '../../assets/imgs/Apresentation.svg'
 
 export default () => {
     return (
-    <div className="apresentation-container">
-        <div className="text-container">
-            <div className="text-apresentation">
+    <Container>
+        <InformText>
                 <h1>Solicite uma Cotação de seguro</h1>
                 <p>Ficaremos muito contentes com o seu pedido,  ajudando-o a encontra o seguro perfeito para as suas necessidades</p>
-                <PrimaryButton/>
-                <a href="../../Pages/products.jsx">Produtos</a>+
-            </div>
-        </div>
-        <img src={ilustration} alt="Apresentação"/>
-    </div>
+                <Buttons>
+                    <PrimaryButton/>
+                    <a href="../../Pages/products.jsx">Produtos</a>
+                </Buttons>
+        </InformText>
+        <Ilustration>
+            <img src={ilustration} alt="Apresentação"/>
+        </Ilustration>
+    </Container>
     )
 }
