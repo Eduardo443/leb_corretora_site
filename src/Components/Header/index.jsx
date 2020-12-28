@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, LogoInfo, PageButtons } from './style.jsx'
 
-import logo from "../../assets/imgs/Logo_leb.png"
+import logo from "../../assets/imgs/leb_icon.png"
 import PrimaryButton from "../PrimaryButton"
 
 export default () => {
