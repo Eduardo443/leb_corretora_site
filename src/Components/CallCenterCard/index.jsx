@@ -1,15 +1,17 @@
 import React from 'react'
 
-import { Container, Ilustration, Tittle, Number } from './style'
+import { Container, Ilustration, Tittle, Number, Text } from './style'
 
-export default props => {
+function CallCenterCard(props){
     return (
         <Container>
             <Ilustration>
-                <a href={props.img}></a>
+                <a href={props.Img}></a>
             </Ilustration>
-            <Tittle>{props.name}</Tittle>
-            <Number>{props.phoneNumber}</Number>
+            <Tittle><h1>{props.Name}</h1></Tittle>
+            <Number><h2>{props.PhoneNumber}</h2></Number>
         </Container>
     );
 }
+
+export default CallCenterCard

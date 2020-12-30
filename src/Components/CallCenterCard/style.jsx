@@ -1,9 +1,27 @@
 import styled from 'styled-components'
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    height: 15rem;
+    width: 10rem;
 
-export const Ilustration = styled.div``;
+    background-color: white;
+`;
 
-export const Tittle = styled.div``;
+export const Ilustration = styled.div`
+    height: 7.5rem;
+    width: 10rem;
+`;
 
-export const Number = styled.div``;
+export const Tittle = styled.div`
+    diplay: flex;
+    align-items: center;
+
+    color: black;
+`;
+
+export const Number = styled.div`
+    diplay: flex;
+    align-items: center;
+
+    color: black;
+`;
