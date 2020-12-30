@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    height: 95vh;
+    height: 85vh;
     width: 100%;
 
-    display: grid;
-    template-grid: row;
-
     background-color: #E9EDF3 ;
+
+    padding: 5rem;
 `;
 
 export const Tittle = styled.div`
@@ -19,4 +18,12 @@ export const Tittle = styled.div`
     h1{
         margin: 1.5rem;
     }
+`;
+
+export const Cards = styled.div`
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    row-gap: 1.8rem;
+    column-gap: 1.8rem;
 `;
