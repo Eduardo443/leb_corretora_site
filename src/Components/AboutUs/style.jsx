@@ -8,6 +8,11 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    padding: 0 15vw;
+    @media(max-width: 1300px){
+        padding: 0;
+    }
+
     background-color: #F7F8FA;
 `;
 

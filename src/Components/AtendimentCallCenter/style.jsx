@@ -6,7 +6,12 @@ export const Container = styled.div`
 
     background-color: #E9EDF3 ;
 
-    padding: 5rem;
+    padding: 0 15vw;
+    @media(max-width: 1300px){
+        padding: 0;
+
+        height: 130vh;
+    }
 `;
 
 export const Tittle = styled.div`
@@ -26,4 +31,10 @@ export const Cards = styled.div`
 
     row-gap: 1.8rem;
     column-gap: 1.8rem;
+
+    @media(max-width: 1300px){
+        grid-template-columns: repeat(3, 1fr);
+
+        row-gap: 4rem;
+    }
 `;

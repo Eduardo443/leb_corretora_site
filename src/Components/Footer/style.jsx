@@ -8,6 +8,11 @@ export const Container = Styled.div`
     height: 23rem;
     width: 100%;
 
+    padding: 0 15vw;
+    @media(max-width: 1300px){
+        padding: 0;
+    }
+
     background-color: #F0F4FD;
 
     p{ color: #898787; }

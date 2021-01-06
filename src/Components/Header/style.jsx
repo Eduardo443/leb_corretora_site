@@ -11,11 +11,15 @@ export const Container = styled.div`
     width: 100%;
     height: 15vh;
 
+    padding: 0 15vw;
+
+
     color: white;
     text-decoration: none;
 
-    @media(min-width: 1200px){
+    @media(max-width: 1300px){
         height: 8vh;
+        padding: 0;
      }
 
 `;
@@ -28,14 +32,14 @@ export const LogoInfo = styled.div`
     font-weight: 100;
 
     img{
-        height: 12vh;
+        height: 6vh;
         margin-left: 3rem;
         margin-right: 2rem;
     }
 
-    @media(min-width: 1200px){
-         img{ height: 6vh; }
-     }
+    // @media(min-width: 1200px){
+    //      img{ height: 6vh; }
+    //  }
 `;
 
 export const PageButtons = styled.div`
